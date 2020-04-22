@@ -1,4 +1,4 @@
-FROM docker.io/mauilion/node:v1.19-alpha2
+FROM docker.io/kindest/node:v1.17.2
 
 RUN echo "Installing crio ..." \
     && DEBIAN_FRONTEND=noninteractive clean-install gnupg \
